@@ -38,4 +38,4 @@ BME688 is not a CO₂ sensor.
 ## Status
 Schematic frozen Rev 1.1. SITL mission screenshot added. Bench wiring and airframe next.
 ![Schematic Rev 1.1](hardware/Schematic_ECHO-SAR_Payload_Rev1.1_DetectMap.png)
-![SITL plan](sitl/sitl_campus_plan.png)
+![SITL plan](sitl/sitl_campus_plan.jpeg)
