@@ -35,6 +35,10 @@ GPS Auto is real. GPS-denied is a short optical-flow hold.
 Building on a waypoint: Loiter + pilot goes around.  
 BME688 is not a CO₂ sensor.
 
+## Webots reference
+Separate project (Crazyflie, not our Pixhawk):
+https://github.com/misaka10111/Disaster-Response-Drone
+
 ## Status
 Schematic frozen Rev 1.1. SITL mission screenshot added. Bench wiring and airframe next.
 ![Schematic Rev 1.1](hardware/Schematic_ECHO-SAR_Payload_Rev1.1_DetectMap.png)
