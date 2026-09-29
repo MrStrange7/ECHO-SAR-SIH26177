@@ -35,9 +35,14 @@ GPS Auto is real. GPS-denied is a short optical-flow hold.
 Building on a waypoint: Loiter + pilot goes around.  
 BME688 is not a CO₂ sensor.
 
-## Webots reference
-Separate project (Crazyflie, not our Pixhawk):
-https://github.com/misaka10111/Disaster-Response-Drone
+## Webots simulation (reference only)
+`sim/webots-ref` is the [misaka10111/Disaster-Response-Drone](https://github.com/misaka10111/Disaster-Response-Drone) project (MIT).
+
+What that sim is: Webots + Crazyflie, lawnmower search, YOLOv8 on a downward camera, GPS goto. Their SLAM file is visualization only.
+
+What it is not: our Pixhawk, S500, dual Pi 4, ELRS, or Rev 1.1 schematic.
+
+Our own flight-plan sim is Mission Planner ArduCopter SITL in `sitl/` (TAKEOFF → 8 m box → RTL).
 
 ## Status
 Schematic frozen Rev 1.1. SITL mission screenshot added. Bench wiring and airframe next.
